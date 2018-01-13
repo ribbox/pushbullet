@@ -8,3 +8,5 @@ Setup:
 + `pip install pushbullet.py`
 4. Restart CraftBeerPi
 5. Add API key from Pushbullet in the parameter menu of CraftBeerPi
+
+You can test this by adding another addon and then removing it, you should get 2 notifications.
