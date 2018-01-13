@@ -12,7 +12,6 @@ pushbullet_token = None
 def pushBulletToken():
 	global pushbullet_token
 	pushbullet_token = cbpi.get_config_parameter("pushbullet_token", None)
-	cbpi.app.logger.info("check parameter")
 	if pushbullet_token is None:
 		print "INIT pushbullet Token"
 		try:
